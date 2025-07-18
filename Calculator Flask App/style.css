@@ -1,0 +1,35 @@
+body {
+    background: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  header, footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .calculator {
+    max-width: 350px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .calculator input {
+    height: 60px;
+    font-size: 1.5rem;
+    text-align: right;
+  }
+
+  .calculator button {
+    width: 70px;
+    height: 70px;
+    font-size: 1.3rem;
+  }
